@@ -3,32 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Portfólio - Vitorio Kós</title>
 
 <style>
-body {
-font-family: Arial;
+
+* {
 margin: 0;
-background-color: #f4f4f4;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+background: #f5f7fa;
+color: #333;
 }
 
 header {
-background: #111;
+background: linear-gradient(135deg, #0f172a, #1e293b);
 color: white;
+padding: 40px 20px;
 text-align: center;
+}
+
+header h1 {
+font-size: 32px;
+margin-bottom: 10px;
+}
+
+header p {
+opacity: 0.9;
+}
+
+.container {
+max-width: 900px;
+margin: auto;
 padding: 20px;
 }
 
-section {
+.card {
 background: white;
-margin: 20px;
-padding: 20px;
-border-radius: 8px;
+padding: 25px;
+margin-bottom: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
 }
 
 h2 {
-color: #333;
+margin-bottom: 15px;
+color: #0f172a;
 }
+
+ul {
+margin-left: 20px;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+color: #777;
+}
+
 </style>
 
 </head>
@@ -40,36 +81,57 @@ color: #333;
 <p>Estudante de Análise e Desenvolvimento de Sistemas</p>
 </header>
 
-<section>
-<h2>Perfil Pessoal</h2>
-<p>Estudante de Análise e Desenvolvimento de Sistemas, atualmente no primeiro semestre. Busco desenvolver minhas habilidades na área de tecnologia e conquistar minha primeira oportunidade profissional.</p>
-</section>
+<div class="container">
 
-<section>
-<h2>Formação Acadêmica</h2>
-<p>Análise e Desenvolvimento de Sistemas - Em andamento</p>
-</section>
+<div class="card">
+<h2>👤 Perfil Pessoal</h2>
+<p>Estudante de Análise e Desenvolvimento de Sistemas no UniCEUB, atualmente no primeiro semestre. Tenho interesse em desenvolvimento de software e tecnologia, buscando adquirir conhecimento prático e conquistar minha primeira oportunidade profissional na área de TI.</p>
+</div>
 
-<section>
-<h2>Habilidades</h2>
+<div class="card">
+<h2>🎓 Formação Acadêmica</h2>
+<p>Análise e Desenvolvimento de Sistemas — UniCEUB</p>
+<p>1º semestre — Em andamento</p>
+</div>
+
+<div class="card">
+<h2>💻 Habilidades Técnicas</h2>
 <ul>
 <li>Lógica de Programação</li>
+<li>Algoritmos</li>
 <li>Git e GitHub</li>
 <li>HTML (em aprendizado)</li>
 <li>CSS (em aprendizado)</li>
 </ul>
-</section>
+</div>
 
-<section>
-<h2>Projetos</h2>
-<p>Portfólio profissional em desenvolvimento.</p>
-</section>
+<div class="card">
+<h2>🚀 Projetos</h2>
+<p>Portfólio Profissional Digital — Em desenvolvimento</p>
+<p>Projetos acadêmicos serão adicionados ao longo da graduação.</p>
+</div>
 
-<section>
-<h2>Objetivo</h2>
-<p>Busco minha primeira oportunidade na área de tecnologia para crescer profissionalmente.</p>
-</section>
+<div class="card">
+<h2>🎯 Objetivo Profissional</h2>
+<p>Busco minha primeira oportunidade na área de tecnologia para desenvolver minhas habilidades técnicas e crescer profissionalmente como desenvolvedor.</p>
+</div>
+
+<div class="card">
+<h2>📚 Habilidades Pessoais</h2>
+<ul>
+<li>Aprendizado rápido</li>
+<li>Proatividade</li>
+<li>Trabalho em equipe</li>
+<li>Organização</li>
+<li>Interesse por tecnologia</li>
+</ul>
+</div>
+
+</div>
+
+<footer>
+<p>© 2026 - Vitorio Kós</p>
+</footer>
 
 </body>
-
 </html>
